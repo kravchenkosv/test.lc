@@ -1,0 +1,23 @@
+@mixin anim ($name, $time, $type, $cycle) {
+  -webkit-animation: $name $time $type normal $cycle;
+  -o-animation: $name $time $type normal $cycle;
+  -moz-animation: $name $time $type normal $cycle;
+  animation: $name $time $type normal $cycle;
+}
+
+@mixin anim-delay($s) {
+  -webkit-animation-delay: $s;
+  -moz-animation-delay: $s;
+  -o-animation-delay: $s;
+  animation-delay: $s;
+}
+
+@mixin trans($style, $s, $type: ease) {
+  -webkit-transition: $style $s $type;
+  -moz-transition: $style $s $type;
+  -ms-transition: $style $s $type;
+  -o-transition: $style $s $type;
+  transition: $style $s $type;
+}
+
+$black: #000000;

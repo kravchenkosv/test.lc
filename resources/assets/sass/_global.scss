@@ -1,0 +1,19 @@
+*{
+  padding: 0;
+  margin: 0;
+  line-height: 0;
+  font-size: 0;
+  letter-spacing: 0;
+}
+p, h1, h2, h3, h4, h5, h6, span, a {
+  letter-spacing: normal;
+  line-height: normal;
+}
+
+h1 {font-size: 50px;}
+h2 {font-size: 40px;}
+h3 {font-size: 32px;}
+h4 {font-size: 26px;}
+h5 {font-size: 22px;}
+p {font-size: 18px;}
+span{font-size: 16px}
